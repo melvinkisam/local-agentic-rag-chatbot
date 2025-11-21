@@ -1,6 +1,8 @@
 # local-agentic-rag-chatbot
 A local chatbot that delivers personalised responses based on user-specific data.
 
+![Example](img/example.png)
+
 # Prerequisites
 Make sure Ollama model and embedding are installed.
 - Model: **llama3.2:latest**
@@ -13,7 +15,7 @@ Run the following command to download dependencies from the requirement file:
 pip install -r requirements.txt
 ```
 
-### 2. Rename `.env` file
+### 2. Rename `.env`
 Rename `.env.example` to `.env`.
 
 ### 3. Ingestion
